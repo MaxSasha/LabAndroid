@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/secondLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableRow>
+        <TextView
+            android:id="@+id/txtView_1"
+            android:layout_width="match_parent"
+            android:background="@drawable/start_drawable"
+            android:layout_weight="1"
+            android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="1"
+                    >
+
+                    <Button
+                        android:id="@+id/btn_pick"
+                        android:layout_width="wrap_content"
+                        android:layout_height="304dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/button_default"
+                        android:onClick="setBackgroundColor"
+                        android:text="pick color"
+                        android:textColor="#ffffff"
+                        android:textSize="20pt" />
+
+                    <Button
+                        android:id="@+id/btn_rotate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:onClick="SetOrientation"
+                        android:layout_weight="1"
+                        android:text="Rotate" />
+
+                    <Button
+                        android:id="@+id/btn_showMenu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:onClick="showMenu"
+                        android:text="Change Alert" />
+                </LinearLayout>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

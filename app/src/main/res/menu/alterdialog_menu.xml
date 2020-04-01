@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/oneButton"
+        android:orderInCategory="1"
+        android:title="one button" />
+    <item
+        android:id="@+id/twoButton"
+        android:orderInCategory="2"
+        android:title="two button" />
+    <item
+        android:id="@+id/inMethodOnCreate"
+        android:orderInCategory="3"
+        android:title="in method" />
+    <item
+        android:id="@+id/List"
+        android:orderInCategory="4"
+        android:title="list" />
+    <item
+        android:id="@+id/withSwitch"
+        android:orderInCategory="5"
+        android:title="switch" />
+    <item
+        android:id="@+id/withCheckboxes"
+        android:orderInCategory="6"
+        android:title="check boxes" />
+    <item
+        android:id="@+id/automaticСlose"
+        android:orderInCategory="7"
+        android:title="close window" />
+    <item
+        android:id="@+id/rating"
+        android:orderInCategory="8"
+        android:title="rating" />
+</menu>

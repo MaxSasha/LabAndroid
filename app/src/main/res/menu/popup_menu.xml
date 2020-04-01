@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nextPage"
+        android:orderInCategory="1"
+        android:title="Next page" />
+    <item
+        android:id="@+id/showInfo"
+        android:orderInCategory="2"
+        android:title="Info">
+        <menu>
+            <item
+                android:id="@+id/Show_allInfo_submenu"
+                android:title="Вся інформація"
+                />
+            <item
+                android:id="@+id/show_FIO_submenu"
+                android:title="ПІП"/>
+            <item
+                android:id="@+id/show_group_submenu"
+                android:title="Група"/>
+            <item
+                android:id="@+id/show_speciality_submenu"
+                android:title="Спеціальність"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/showMessage"
+        android:orderInCategory="3"
+        android:title="Change Color" />
+    <item
+        android:id="@+id/showToast"
+        android:orderInCategory="4"
+        android:title="Показати toast"
+        />
+</menu>
