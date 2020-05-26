@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/returnMenu"
+        android:orderInCategory="1"
+        android:title="Відмінити" />
+    <item
+        android:id="@+id/showInfo"
+        android:orderInCategory="2"
+        android:title="Довідка" />
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="3"
+        android:title="Про програму" />
+    <item
+        android:id="@+id/userManual"
+        android:orderInCategory="4"
+        android:title="Інструкція користувача" />
+
+</menu>
